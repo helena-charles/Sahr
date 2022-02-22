@@ -26,7 +26,8 @@ function App() {
 
 
 
-      <Clock format={'HH:mm:ss'} ticking={true} timezone={'US/Pacific'} />
+
+      <Clock format={'HH:mm:ss'} ticking={true} timezone={'GB'} />
     </div>
   );
 }
