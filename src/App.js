@@ -1,12 +1,18 @@
 // import logo from './logo.svg';x
 import './App.css';
 
-import React from 'react';
+import React, { useState } from 'react';
 import Clock from 'react-live-clock';
+// import useWindowSize from './useWindowSize';
+// import Confetti from 'react-confetti'
+
 
 function App() {
+  // const [heSaidYes, setHeSaidYes] = useState(false);
+  // const { width, height } = useWindowSize()
+
   return (
-    <div className="App">
+    <div style={{ minHeight: '100vh', display: 'flex', justifyContent: 'center' }} className="App">
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -21,13 +27,24 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <h1>SAHR SOLAR</h1>
-      <p>Will you be my boyfriend?</p>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', }}>
+        <Clock style={{ fontSize: 56 }} format={'HH:mm:ss'} ticking={true} timezone={'GB'} />
+        <h1 style={{ fontSize: 56 }}>SAHR SOLAR</h1>
+        <p style={{ fontSize: 48 }}>Will you be my boyfriend?</p>
+        <button style={{ fontSize: 48 }} onClick={() => window.alert('CONGRATULATIONS YOU HAVE MADE THE BEST DECISION EVER')}>Yes</button>
+
+        {/* {
+          heSaidYes && (
+            <Confetti
+              width={width}
+              height={height}
+            />
+          )
+        } */}
 
 
 
-
-      <Clock format={'HH:mm:ss'} ticking={true} timezone={'GB'} />
+      </div>
     </div>
   );
 }
