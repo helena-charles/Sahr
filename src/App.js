@@ -50,6 +50,7 @@ function App() {
             </>
           ) : (
             <>
+              <p style={{ color: '#228B22', fontSize: 56 }}>22 / 02 / 2022</p>
               <Clock style={{ color: '#228B22', fontSize: 56 }} format={'HH:mm:ss'} ticking={true} timezone={'GB'} />
               <h1 style={{ color: '#228B22', fontSize: 56 }}>SAHR SOLAR</h1>
               <p style={{ color: '#228B22', fontSize: 48 }}>Will you be my boyfriend?</p>
