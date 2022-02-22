@@ -1,6 +1,7 @@
 import './App.css';
 
 import React, { useState } from 'react';
+import { use100vh } from 'react-div-100vh'
 import Clock from 'react-live-clock';
 import useWindowSize from 'react-use/lib/useWindowSize'
 import Confetti from 'react-confetti'
@@ -15,7 +16,7 @@ function App() {
   };
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', justifyContent: 'center' }} className="App">
+    <div style={{ minHeight: use100vh(), display: 'flex', justifyContent: 'center' }} className="App">
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', }}>
         {
           heSaidYes ? (
