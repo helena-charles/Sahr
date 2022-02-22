@@ -46,7 +46,7 @@ function App() {
                 width={width}
                 height={height}
               />
-              <h1 style={{ color: '#228B22', fontSize: 56 }}>CONGRATULATIONS YOU HAVE MADE THE BEST DECISION EVER</h1>
+              <h1 style={{ color: '#228B22', fontSize: 36 }}>CONGRATULATIONS YOU HAVE MADE THE BEST DECISION EVER</h1>
             </>
           ) : (
             <>
