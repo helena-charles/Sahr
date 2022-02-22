@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';x
 import './App.css';
+
+import React from 'react';
+import Clock from 'react-live-clock';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +20,13 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <h1>SAHR SOLAR</h1>
+      <p>Will you be my boyfriend?</p>
+
+
+
+      <Clock format={'HH:mm:ss'} ticking={true} timezone={'US/Pacific'} />
     </div>
   );
 }
