@@ -28,10 +28,10 @@ function App() {
         </a>
       </header> */}
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', }}>
-        <Clock style={{ fontSize: 56 }} format={'HH:mm:ss'} ticking={true} timezone={'GB'} />
-        <h1 style={{ fontSize: 56 }}>SAHR SOLAR</h1>
-        <p style={{ fontSize: 48 }}>Will you be my boyfriend?</p>
-        <button style={{ fontSize: 48 }} onClick={() => window.alert('CONGRATULATIONS YOU HAVE MADE THE BEST DECISION EVER')}>Yes</button>
+        <Clock style={{ color: '#228B22', fontSize: 56 }} format={'HH:mm:ss'} ticking={true} timezone={'GB'} />
+        <h1 style={{ color: '#228B22', fontSize: 56 }}>SAHR SOLAR</h1>
+        <p style={{ color: '#228B22', fontSize: 48 }}>Will you be my boyfriend?</p>
+        <button style={{ border: 'none', borderRadius: 10, padding: '12px 24px', color: '#fff', backgroundColor: '#228B22', fontSize: 48 }} onClick={() => window.alert('CONGRATULATIONS YOU HAVE MADE THE BEST DECISION EVER')}>Yes</button>
 
         {/* {
           heSaidYes && (
