@@ -4,9 +4,9 @@ import Clock from 'react-live-clock';
 import useWindowSize from 'react-use/lib/useWindowSize'
 import Confetti from 'react-confetti'
 
-import {
-  Link,
-} from "react-router-dom";
+// import {
+//   Link,
+// } from "react-router-dom";
 
 const Homepage = () => {
   const [heSaidYes, setHeSaidYes] = useState(false);
