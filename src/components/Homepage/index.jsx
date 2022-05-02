@@ -4,9 +4,9 @@ import Clock from 'react-live-clock';
 import useWindowSize from 'react-use/lib/useWindowSize'
 import Confetti from 'react-confetti'
 
-import {
-  Link,
-} from "react-router-dom";
+// import {
+//   Link,
+// } from "react-router-dom";
 
 const Homepage = () => {
   const [heSaidYes, setHeSaidYes] = useState(false);
@@ -30,7 +30,7 @@ const Homepage = () => {
           ) : (
             <>
               {/* uncomment this to test link to new page */}
-              <Link to="/6-months-anniversary">Click for a surprise</Link>
+              {/* <Link to="/6-months-anniversary">Click for a surprise</Link> */}
               <p style={{ color: '#228B22', fontSize: 48 }}>22 / 02 / 2022</p>
               <Clock style={{ color: '#228B22', fontSize: 48 }} format={'HH:mm:ss'} ticking={true} timezone={'GB'} />
               <h1 style={{ color: '#228B22', fontSize: 48 }}>SAHR SOLAR</h1>
