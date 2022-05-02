@@ -1,28 +1,30 @@
 import React from 'react';
+import ReactPlayer from 'react-player'
 import Image from 'react-bootstrap/Image'
 import img1 from '../../assets/images/1.png';
-import img2 from '../../assets/images/2.png';
-import img3 from '../../assets/images/3.png';
-import img4 from '../../assets/images/4.png';
-import img5 from '../../assets/images/5.png';
-import img6 from '../../assets/images/6.png';
-import img7 from '../../assets/images/7.png';
-import img8 from '../../assets/images/8.png';
+import videoUrl from '../../assets/how-its-going.MOV';
+// import img2 from '../../assets/images/2.png';
+// import img3 from '../../assets/images/3.png';
+// import img4 from '../../assets/images/4.png';
+// import img5 from '../../assets/images/5.png';
+// import img6 from '../../assets/images/6.png';
+// import img7 from '../../assets/images/7.png';
+// import img8 from '../../assets/images/8.png';
 
 import {
   Link,
 } from "react-router-dom";
 
-const images = [
-  // img1,
-  img2,
-  img3,
-  img4,
-  img5,
-  img6,
-  img7,
-  img8,
-];
+// const images = [
+//   // img1,
+//   img2,
+//   img3,
+//   img4,
+//   img5,
+//   img6,
+//   img7,
+//   img8,
+// ];
 
 const SixMonthsAnniversary = () => {
   return (
@@ -39,7 +41,11 @@ const SixMonthsAnniversary = () => {
         />
       </div>
       <h2>How it's going...</h2>
-      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+      <ReactPlayer
+        url={videoUrl}
+        controls={true}
+      />
+      {/* <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
         {images.map(imgSrc => (
           <Image
             style={{ margin: 12, maxHeight: 300 }}
@@ -47,7 +53,7 @@ const SixMonthsAnniversary = () => {
           />
         )
         )}
-      </div>
+      </div> */}
     </div>
   )
 }
