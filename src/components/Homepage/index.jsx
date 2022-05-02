@@ -29,6 +29,7 @@ const Homepage = () => {
             </>
           ) : (
             <>
+              {/* uncomment this to test link to new page */}
               {/* <Link to="/6-months-anniversary">Click for a surprise</Link> */}
               <p style={{ color: '#228B22', fontSize: 48 }}>22 / 02 / 2022</p>
               <Clock style={{ color: '#228B22', fontSize: 48 }} format={'HH:mm:ss'} ticking={true} timezone={'GB'} />
