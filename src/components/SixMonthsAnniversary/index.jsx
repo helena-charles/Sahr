@@ -2,7 +2,7 @@ import React from 'react';
 import ReactPlayer from 'react-player'
 import Image from 'react-bootstrap/Image'
 import img1 from '../../assets/images/1.png';
-import videoUrl from '../../assets/how-its-going.MOV';
+// import videoUrl from '../../assets/how-its-going.MOV';
 // import img2 from '../../assets/images/2.png';
 // import img3 from '../../assets/images/3.png';
 // import img4 from '../../assets/images/4.png';
@@ -10,6 +10,7 @@ import videoUrl from '../../assets/how-its-going.MOV';
 // import img6 from '../../assets/images/6.png';
 // import img7 from '../../assets/images/7.png';
 // import img8 from '../../assets/images/8.png';
+
 
 import {
   Link,
@@ -26,7 +27,10 @@ import {
 //   img8,
 // ];
 
+
 const SixMonthsAnniversary = () => {
+  const videoUrl = 'https://player.vimeo.com/video/714422912?h=9f96e4a0e7';
+
   return (
     <div style={{ margin: 24, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', }}>
       <Link to="/">
@@ -59,3 +63,5 @@ const SixMonthsAnniversary = () => {
 }
 
 export default SixMonthsAnniversary;
+
+{/* <iframe src="https://player.vimeo.com/video/714422912?h=9f96e4a0e7" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> */ }

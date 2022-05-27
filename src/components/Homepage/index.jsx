@@ -26,6 +26,7 @@ const Homepage = () => {
                 height={height}
               />
               <h1 style={{ color: '#228B22', fontSize: 36 }}>CONGRATULATIONS YOU HAVE MADE THE BEST DECISION EVER</h1>
+              <a style={{ color: '#228B22', fontSize: 24 }} href="https://fairlyoddparents-ok.netlify.app/">See, proof :)</a>
             </>
           ) : (
             <>
