@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactPlayer from 'react-player'
+// import ReactPlayer from 'react-player'
 import Image from 'react-bootstrap/Image'
 import img1 from '../../assets/images/1.png';
 // import videoUrl from '../../assets/how-its-going.MOV';
@@ -29,7 +29,7 @@ import {
 
 
 const SixMonthsAnniversary = () => {
-  const videoUrl = 'https://player.vimeo.com/video/714422912?h=9f96e4a0e7';
+  // const videoUrl = 'https://player.vimeo.com/video/714422912?h=9f96e4a0e7';
 
   return (
     <div style={{ margin: 24, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', }}>
