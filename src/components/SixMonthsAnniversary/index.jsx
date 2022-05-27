@@ -45,10 +45,12 @@ const SixMonthsAnniversary = () => {
         />
       </div>
       <h2>How it's going...</h2>
-      <ReactPlayer
+      {/* <ReactPlayer
         url={videoUrl}
         controls={true}
-      />
+      /> */}
+      <iframe title="How it's going..." src="https://player.vimeo.com/video/714422912?h=9f96e4a0e7" width="340" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
       {/* <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
         {images.map(imgSrc => (
           <Image
