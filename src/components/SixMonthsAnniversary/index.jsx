@@ -63,5 +63,3 @@ const SixMonthsAnniversary = () => {
 }
 
 export default SixMonthsAnniversary;
-
-{/* <iframe src="https://player.vimeo.com/video/714422912?h=9f96e4a0e7" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> */ }
