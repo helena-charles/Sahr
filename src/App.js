@@ -4,6 +4,9 @@ import React from 'react';
 
 import Homepage from './components/Homepage';
 import SixMonthsAnniversary from './components/SixMonthsAnniversary';
+import TwentySevenBirthday from './components/TwentySevenBirthday';
+import EmiratesTour from './components/TwentySevenBirthday/EmiratesTour';
+import Massage from './components/TwentySevenBirthday/Massage';
 
 import {
   BrowserRouter as Router,
@@ -17,19 +20,17 @@ function App() {
     <>
       <Router>
         <div>
-          {/* <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <Link to="/6-months-anniversary">Click for a surprise</Link>
-          </div> */}
-
           {/* A <Switch> looks through its children <Route>s and
               renders the first one that matches the current URL. */}
           <Routes>
             <Route path='/' element={<Homepage />} />
             <Route path='/6-months-anniversary' element={<SixMonthsAnniversary />} />
+            <Route path='/27th-birthday' element={<TwentySevenBirthday />} />
+            <Route path='/emirates-tour' element={<EmiratesTour />} />
+            <Route path='/massage' element={<Massage />} />
           </Routes>
         </div>
       </Router>
-      {/* <Homepage /> */}
     </>
   );
 }
