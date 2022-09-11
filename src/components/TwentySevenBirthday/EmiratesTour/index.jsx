@@ -14,11 +14,11 @@ const EmiratesTour = () => {
       </Link>
       {/* <h1>We're going to the Emirates for a stadium tour!</h1> */}
       <Image
-        style={{ margin: 12, maxHeight: 300 }}
+        style={{ margin: 12, maxWidth: 375 }}
         src={emiratesImage}
       />
       <Image
-        style={{ margin: 12, maxHeight: 300 }}
+        style={{ margin: 12, maxWidth: 375 }}
         src={tourHoursImage}
       />
       <Link to="/massage">
