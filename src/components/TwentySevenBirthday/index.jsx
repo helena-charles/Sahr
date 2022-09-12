@@ -12,26 +12,24 @@ const TwentySevenBirthday = () => {
       <Link to="/">
         Back
       </Link>
-      <h1>Happy 27th Birthday Sahr!</h1>
-      <div style={{ display: 'flex' }}>
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <Link to="/massage">
-            Relax and unwind - feel your tensions melt away
-          </Link>
-          <Image
-            style={{ margin: 12, maxHeight: 300 }}
-            src={massageImage}
-          />
-        </div>
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <Link to="/emirates-tour">
-            Walk in the footsteps of your footballing heroes
-          </Link>
-          <Image
-            style={{ margin: 12, maxHeight: 300 }}
-            src={emiratesImage}
-          />
-        </div>
+      <h1 style={{ textAlign: 'center' }}>HAPPY 27TH BIRTHDAY SAHR!</h1>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <Link to="/massage">
+          Relax and unwind - feel your tensions melt away
+        </Link>
+        <Image
+          style={{ margin: 12, maxWidth: 375 }}
+          src={massageImage}
+        />
+      </div>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <Link to="/emirates-tour">
+          Walk in the footsteps of your footballing heroes
+        </Link>
+        <Image
+          style={{ margin: 12, maxWidth: 375 }}
+          src={emiratesImage}
+        />
       </div>
     </div>
   )
