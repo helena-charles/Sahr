@@ -4,6 +4,8 @@ import React from 'react';
 
 import Homepage from './components/Homepage';
 import SixMonthsAnniversary from './components/SixMonthsAnniversary';
+import OneYearAnniversary from './components/OneYearAnniversary';
+import FlipBook from './components/OneYearAnniversary/FlipBook.jsx';
 import TwentySevenBirthday from './components/TwentySevenBirthday';
 import EmiratesTour from './components/TwentySevenBirthday/EmiratesTour';
 import Massage from './components/TwentySevenBirthday/Massage';
@@ -25,6 +27,8 @@ function App() {
           <Routes>
             <Route path='/' element={<Homepage />} />
             <Route path='/6-months-anniversary' element={<SixMonthsAnniversary />} />
+            <Route path='/one-year-anniversary' element={<OneYearAnniversary />} />
+            <Route path='/flip-book' element={<FlipBook />} />
             <Route path='/27th-birthday' element={<TwentySevenBirthday />} />
             <Route path='/emirates-tour' element={<EmiratesTour />} />
             <Route path='/massage' element={<Massage />} />
