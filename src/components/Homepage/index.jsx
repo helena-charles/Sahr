@@ -33,6 +33,7 @@ const Homepage = () => {
               {/* uncomment this to test link to new page */}
               <Link to="/6-months-anniversary">6 Months Anniversary</Link>
               <Link to="/27th-birthday">Happy 27th Birthday Sahr</Link>
+              <Link to="/one-year-anniversary">Happy Anniversary Baby</Link>
               <p style={{ color: '#228B22', fontSize: 48, margin: 16 }}>22 / 02 / 2022</p>
               <p style={{ color: '#228B22', fontSize: 48, margin: 16 }}>22:22</p>
               {/* <Clock style={{ color: '#228B22', fontSize: 48 }} format={'HH:mm:ss'} ticking={true} timezone={'GB'} /> */}

@@ -7,21 +7,12 @@ import {
 
 import starWarsThemeSound from '../../assets/sounds/star-wars-theme.mp3';
 
-// import { PageFlip } from 'page-flip';
-
-// const pageFlip = new PageFlip(<div></div>);
-
 const OneYearAnniversary = () => {
     const playAudio = () => {
         new Audio(starWarsThemeSound).play();
     }
     return (
         <div style={{ background: '#000000' }} onClick={playAudio}>
-            {/* <ReactAudioPlayer
-                src={starWarsThemeSound}
-                autoPlay
-                controls
-            /> */}
             <Link to="/flip-book" style={{ marginTop: 24, color: '#00c2cb', fontSize: 24 }}>
                 Find out in this thrilling adventure!
             </Link>
@@ -35,8 +26,5 @@ const OneYearAnniversary = () => {
         </div>
     )
 }
-
-// pageFlip.loadFromImages(['src/assets/images/flip-book/1.png', 'src/assets/images/flip-book/2.png' ]);
-
 
 export default OneYearAnniversary;
